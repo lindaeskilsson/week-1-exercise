@@ -189,5 +189,36 @@ public class Main {
 //        System.out.println("medelvärdet är: " + averageResult);
 
 
+//        //11 Vad händer när följande kod körs?
+//        int a = 3;
+//        if( a > 1 )
+//            System.out.println("a > 1 (första)");
+//        a--;
+//        if( a > 1 ) {
+//            System.out.println("a > 1 (andra)");
+//        }
+//        else {
+//            System.out.println("a <= 1");
+//        }
+//
+//        //  Vad händer om vi istället initialiserar a med 2 eller 3?
+
+        //12 Vad händer när följande kod körs?
+        final char c = 'q';
+        switch( c ) {
+            case 'a':
+                System.out.println("variable is 'a'");
+                break;
+            case 'b':
+                System.out.println("variable is 'b'");
+                break;
+            default:
+                System.out.println("variable is another letter");
+                break;
+        }
+
+        //kommer att printa ut defult suot-en
+
+
     }
         }
