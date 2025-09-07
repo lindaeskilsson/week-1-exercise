@@ -1,8 +1,14 @@
 package org.example;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 public class Main {
+//
+     //Tillhör uppgift 10
+//    public static double calculateAverage(double num1, double num2, double num3) {
+//        //Inuti metoden, beräkna medelvärdet: (num1 + num2 + num3) / 3.0. Returnera resultatet.
+//        return (num1 + num2 + num3) / 3.0;
+//    }
+
     public static void main(String[] args) {
 
 
@@ -118,22 +124,70 @@ public class Main {
 //        System.out.println("Moms (" + momsProcent + " %): " + m); // skriver momsen
 //        System.out.println("Totalt inkl. moms: " + t); // skriver ut totalen ink moms
 
-        //8  Skapa ett program som avgör om en student har klarat en kurs.
+//        //8  Skapa ett program som avgör om en student har klarat en kurs.
+//
+//        //Deklarera två double variabler: grade (betyg på prov) och attendance (närvaro i procent). Tilldela dem valfria värden.
+//        int grade = 80;
+//        int attendance = 87;
+//
+//        //Använd en if-sats med en logisk operator (&&) för att
+//        // kontrollera om grade är högre än eller lika med 70.0 OCH attendance är högre än eller lika med 80.0.
+//        if (grade >= 70.0 && attendance >= 80.0) {
+//            //Om båda villkoren är sanna, skriv ut: "Grattis! Du har klarat kursen."
+//            System.out.println("Great! du har klarat kursen");
+//            //Använd en else-sats. I denna sats, skriv ut: "Tyvärr, du måste göra om kursen."
+//
+//        } else {
+//            System.out.println("Tyvärr nu får du göra om den här kursen");
+//        }
 
-        //Deklarera två double variabler: grade (betyg på prov) och attendance (närvaro i procent). Tilldela dem valfria värden.
-        int grade = 93;
-        int attendance = 87;
+//        // 9 Skapa ett program som bedömer ett betyg.
+//        //Deklarera en char variabel grade och tilldela den ett värde (t.ex. 'B').
+//        char grade = 'D';
+//
+//        //Använd en switch-sats för att kontrollera grade.
+//        switch (grade) {
+//            case 'A':    //För fallet 'A', skriv ut: "Utmärkt!".
+//                System.out.println("Utmärkt!");
+//                break;
+//            case 'B':          //För fallet 'B', skiver ut: "Bra jobbat!".
+//                System.out.println("Bra jobbat!");
+//                break;
+//            case 'C':
+//            case 'D'://För fallen 'C' och 'D', skriv ut: "Godkänt.".
+//                    System.out.println("godkänt!");
+//                    break;
+//                    default:
+//                        System.out.println("underkänt!");        //Använd default-satsen för alla andra fall och skriv ut: "Underkänt."
+//        }
 
-        //Använd en if-sats med en logisk operator (&&) för att
-        // kontrollera om grade är högre än eller lika med 70.0 OCH attendance är högre än eller lika med 80.0.
-        if (grade + attendance <= 80.0) {
-            System.out.println("Great! du har klarat kursen");
-        } else
+        //10 Skapa ett program som använder en statisk metod för att beräkna medelvärdet av tre tal.
 
-        //Om båda villkoren är sanna, skriv ut: "Grattis! Du har klarat kursen."
+        //Skapa en statisk metod med namnet calculateAverage som tar tre double parametrar (num1, num2, num3).
+//        // FINNS UTANFÖR MAIN
+//
+//        //Inuti metoden, beräkna medelvärdet: (num1 + num2 + num3) / 3.0. Returnera resultatet.
+//        //finns utanför main
+//
+//        //I din main-metod, deklarera tre double variabler, tilldela dem valfria värden.
+//        double a = 85.0;
+//        double b = 23.5;
+//        double c = 95.0;
+//
+//        //Kalla på calculateAverage metoden med dessa tre variabler och lagra resultatet i en ny variabel averageResult.
+//        double averageResult = calculateAverage(a, b, c);
+//
+//        //Använd en if/else if/else-struktur för att bedöma medelvärdet:
+//        if (averageResult > 90.0){
+//            System.out.println("Mycket Bra jobbat");
+//        } else if (averageResult >= 70.0) {
+//            System.out.println("Bra jobbat! ");
+//        } else {
+//            System.out.println("Öva lite mer");
+//        }
+//
+//        System.out.println("medelvärdet är: " + averageResult);
 
-
-        //Använd en else-sats. I denna sats, skriv ut: "Tyvärr, du måste göra om kursen."
 
     }
         }
